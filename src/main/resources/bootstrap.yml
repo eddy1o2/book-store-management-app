@@ -1,0 +1,13 @@
+aws:
+  paramstore:
+    enabled: false
+cloud:
+  aws:
+    region:
+      auto: false
+      static: us-east-2
+    stack:
+      auto: false
+    credentials:
+      secret-key: x
+      access-key: x

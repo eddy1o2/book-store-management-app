@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: book-store-management
+  jackson:
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: false
+      FAIL_ON_UNRESOLVED_OBJECT_IDS: false
+    serialization:
+      WRITE_NULL_MAP_VALUES: true
+
+sqs:
+  endpoint: http://localstack:4576
+  maxNumberOfMessages: 10
+s3:
+  endpoint: http://localstack:4572
+dynamodb:
+  endpoint: http://localstack:4569
